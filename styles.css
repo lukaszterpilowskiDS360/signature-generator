@@ -27,6 +27,8 @@ body {
 .form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 40px;
     margin-top: 40px;
 }
@@ -49,6 +51,7 @@ body {
 .signature {
     margin-bottom: 50px;
     padding: 10px;
+    margin-left: 160px;
 }
 
 img {
@@ -60,7 +63,7 @@ img {
 }
 
 .info {
-    width: 220px;
+    width: 270px;
     height: 70px;
     font-size: 9px;
     float: left;
