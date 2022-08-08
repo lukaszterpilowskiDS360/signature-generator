@@ -11,26 +11,59 @@ html {
     margin: 0;
 }
 
-.signature {
+body {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form, .signature {
+    width: 500px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.form .row {
     display: flex;
     flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.form label {
+    display: block;
+    width: 100px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+
+.signature {
     margin-bottom: 50px;
+    padding: 10px;
 }
 
 img {
     border-right: 2px solid #009fe3;
     margin-right: 10px;
-    width: 170px;
-    height: 70px;
+    width: 139px;
+    float: left;
+    height: 71px;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
+    width: 220px;
     height: 70px;
-    font-size: 10px;
-    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 9px;
+    float: left;
 }
 
 .info .name {

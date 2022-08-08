@@ -1,5 +1,39 @@
-copyBtn = document.querySelector('button')
-copyBtn.addEventListener('click', copyToClipboard)
+nameInput = document.querySelector('.nameInput')
+phoneInput = document.querySelector('.phoneInput')
+emailInput = document.querySelector('.emailInput')
+
+nameField = document.querySelector('.name')
+phoneField = document.querySelector('.phone')
+emailField = document.querySelector('.email')
+
+console.log(nameInput)
+
+
+nameInput.addEventListener('input', (e) => {
+    nameField.innerText = e.target.value
+})
+
+phoneInput.addEventListener('input', (e) => {
+    phoneField.innerText = '(+48) '+ formatPhoneNumber(e.target.value) + ' '
+})
+
+emailInput.addEventListener('input', (e) => {
+    emailField.innerText = e.target.value + '@ds360.pl'
+})
+
+function formatPhoneNumber(phoneNumberString) {
+    var cleaned = ('' + phoneNumberString).replace(/\D/g, '')
+    var match = cleaned.match(/^(\d{3})(\d{3})(\d{3})$/)
+    if (match) {
+      return  match[1] + ' ' + match[2] + ' ' + match[3]
+    }
+    return '(proszę wprowadzić cały numer)'
+  }
+
+
+
+
+
 
 
 function  copyToClipboard() {
