@@ -18,9 +18,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #eef6fa;
 }
 
-.form, .signature {
+.form {
     width: 500px;
 }
 
@@ -29,13 +30,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     margin-top: 40px;
 }
 
 .form .row {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-bottom: 10px;
 }
 
@@ -44,14 +46,32 @@ body {
     width: 100px;
     text-align: right;
     margin-right: 20px;
+    font-weight: 600;
+}
+
+.form input {
+    padding: 0.7rem 1rem;
+    border: 3px solid var(--color-sky-blue);
+    border-radius: 15px;
+    width: 300px;
 }
 
 
+.signatureBox {
+    width: 500px;
+    height: 120px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
 
 .signature {
-    margin-bottom: 50px;
-    padding: 10px;
-    margin-left: 160px;
+    width: 450px;
+    height: 71px;
+    top: 30%;
+    margin-left: 39px;
+    margin: 0 auto;
 }
 
 img {
@@ -65,7 +85,7 @@ img {
 .info {
     width: 270px;
     height: 70px;
-    font-size: 9px;
+    font-size: 10px;
     float: left;
 }
 
