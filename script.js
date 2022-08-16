@@ -6,7 +6,7 @@ nameField = document.querySelector('.name')
 phoneField = document.querySelector('.phone')
 emailField = document.querySelector('.email')
 
-console.log(nameInput)
+emailInput.value = '@ds360.pl'
 
 
 nameInput.addEventListener('input', (e) => {
@@ -15,10 +15,19 @@ nameInput.addEventListener('input', (e) => {
 
 phoneInput.addEventListener('input', (e) => {
     phoneField.innerText = '(+48) '+ formatPhoneNumber(e.target.value) + ' '
+
+    if(phoneInput.value.trim() == ''){
+        phoneField.innerText = '(+48) 123 456 789 '
+    } 
 })
 
 emailInput.addEventListener('input', (e) => {
-    emailField.innerText = ' ' + e.target.value + '@ds360.pl'
+    emailField.innerText = ' ' + e.target.value
+
+    if(emailInput.value.trim() == ''){
+        emailInput.value = '@ds360.pl'
+        emailField.innerText = 'email@ds360.pl'
+    } 
 })
 
 function formatPhoneNumber(phoneNumberString) {
