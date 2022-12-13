@@ -62,7 +62,7 @@ body {
 
 .signatureBox {
     /* width: 500px; */
-    width: 320px;
+    width: 340px;
     /* height: 120px; */
     background-color: white;
     padding: 20px;
@@ -86,7 +86,7 @@ body {
     /*border-right: 2px solid #009fe3;*/
     margin-right: 1rem;
     
-    width: 40%;
+    width: 37%;
     height: 112px;
     /* width: 139px; */
     /* float: left; */
