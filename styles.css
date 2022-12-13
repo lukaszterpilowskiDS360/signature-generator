@@ -86,7 +86,7 @@ body {
     border-right: 2px solid #009fe3;
     margin-right: 1rem;
     
-    width: 35%;
+    width: 37%;
     height: 112px;
     /* width: 139px; */
     /* float: left; */
@@ -96,7 +96,7 @@ body {
 
 img {
     width: 100%;
-    padding: 0.3rem;
+    padding: 0.4rem;
     margin-top: 25px;
     margin-bottom: 20px;
     /* width: 139px; */
@@ -109,7 +109,7 @@ img {
 .info {
     /* width: 300px;
     height: 70px; */
-    font-size: 13px;
+    font-size: 11px;
     height: 112px;
     /* float: left;
     margin-top: 5px; */
@@ -117,10 +117,10 @@ img {
 }
 
 .info .name {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bold;
-    padding-top: 6px;
-    padding-bottom: 10px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     
 }
 
