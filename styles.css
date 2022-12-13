@@ -83,7 +83,7 @@ body {
 } */
 
 .imgBox {
-    /*border-right: 2px solid #009fe3;*/
+    border-right: 2px;
     margin-right: 1rem;
     
     width: 37%;
