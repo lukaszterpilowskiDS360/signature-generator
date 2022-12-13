@@ -20,6 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #eef6fa;
+    word-wrap:break-word;
 }
 
 .form {
