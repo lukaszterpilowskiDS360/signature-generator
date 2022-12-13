@@ -87,7 +87,7 @@ body {
     margin-right: 1rem;
     
     width: 37%;
-    height: 112px;
+    /*height: 112px;*/
     /* width: 139px; */
     /* float: left; */
     /* height: 90px; */
@@ -97,7 +97,7 @@ body {
 img {
     width: 100%;
     padding: 0.2rem;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-bottom: 20px;
     /* width: 139px; */
     /* width: 90px; */
@@ -109,8 +109,8 @@ img {
 .info {
     /* width: 300px;
     height: 70px; */
-    font-size: 11px;
-    height: 112px;
+    font-size: 10px;
+    /*height: 112px;*/
     /* float: left;
     margin-top: 5px; */
     float: left;
