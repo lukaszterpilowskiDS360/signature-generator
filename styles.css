@@ -6,7 +6,8 @@ html {
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+    /* box-sizing: inherit; */
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -56,45 +57,62 @@ body {
     width: 300px;
 }
 
+/* I left some comments cause if the new footer would be break, you should easily fix it */
 
 .signatureBox {
-    width: 500px;
-    height: 120px;
+    /* width: 500px; */
+    width: 320px;
+    /* height: 120px; */
     background-color: white;
     padding: 20px;
     border-radius: 10px;
 
+    /* display: flex;
+    flex-direction: row; */
+    /* align-items: center; */
+
 }
 
-.signature {
+/* .signature {
     width: 500px;
     height: 85px;
     top: 30%;
     margin-left: 39px;
     margin: 0 auto;
-}
+} */
 
 .imgBox {
     border-right: 2px solid #009fe3;
-    margin-right: 10px;
-    width: 139px;
+    margin-right: 1rem;
+    
+    width: 35%;
+    height: 112px;
+    /* width: 139px; */
+    /* float: left; */
+    /* height: 90px; */
     float: left;
-    height: 90px;
 }
 
 img {
-    width: 139px;
-    height: 71px;
-    float: left;
-    margin-top: 10px;
+    width: 100%;
+    padding: 0.3rem;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    /* width: 139px; */
+    /* width: 90px; */
+    /* height: 71px; */
+    /* float: left; */
+    /* margin-top: 10px; */
 }
 
 .info {
-    width: 300px;
-    height: 70px;
+    /* width: 300px;
+    height: 70px; */
     font-size: 13px;
+    height: 112px;
+    /* float: left;
+    margin-top: 5px; */
     float: left;
-    margin-top: 5px;
 }
 
 .info .name {
