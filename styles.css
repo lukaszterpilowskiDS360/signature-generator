@@ -71,7 +71,7 @@ body {
 
 .imgBox {
     border-right: 2px;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     
     width: 37%;
     height: 112px;
@@ -80,8 +80,8 @@ body {
 
 img {
     width: 100%;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .info {
